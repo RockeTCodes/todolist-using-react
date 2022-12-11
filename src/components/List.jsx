@@ -4,10 +4,10 @@ function List(props) {
   return (
     <div
       onClick={() => {
-        props.onPush(props.id);
+        props.onChange(props.id);
       }}
     >
-      <li>{props.value}</li>
+      <li>{props.text}</li>
     </div>
   );
 }
